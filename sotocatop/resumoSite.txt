@@ -1,0 +1,34 @@
+Nome do Site -> Só Toca Top
+
+Objetivo do Site -> O objetivo do site é que as pessoas encontrem um momento de paz, alegria e diversão ouvindo as melhores músicas do momento.
+
+Porque que as pessoas irão acessar o site? -> Para ouvir músicas da melhor facilmente e gratuitamente.
+
+
+Fonte
+
+*Barriecito
+
+STANDARD @IMPORT
+
+*<link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">*
+
+
+Specify in CSS
+Use the following CSS rules to specify these families:
+
+*font-family: 'Barriecito', cursive;*
+
+
+*Timmana
+
+STANDARD @IMPORT
+
+
+*<link href="https://fonts.googleapis.com/css?family=Barriecito|Timmana&display=swap" rel="stylesheet">*
+
+Specify in CSS
+Use the following CSS rules to specify these families:
+
+*font-family: 'Barriecito', cursive;
+font-family: 'Timmana', sans-serif;*
