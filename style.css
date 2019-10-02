@@ -1,0 +1,110 @@
+/**
+* One page layout site
+*@author Leandro Augusto
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* menu */
+
+#logo{
+    float: left;
+}
+
+/* banner slide */
+
+#banner{
+    
+    margin-top: 52px;
+    height: 900px;
+    background-image: url('dj.jpg');
+    /*Flexibilizando o layout para alinhamento vertical*/
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    background-color: red;
+    margin-top: 50px;
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: white;
+    font-size: 0.75em; /*responsividade ver tabela conversão*/
+}
+
+
+/* fim banner slide */
+
+/*menu*/
+nav{
+    width: 100%; /* Responsivo */
+    text-align: right;
+    position: fixed;
+
+}
+
+nav ul {
+    list-style: none; /*Tira bullets*/
+    padding: 5px;
+    background-color: white;
+    overflow: hidden; /*Enxergar o background e completa a largura total com o background*/
+
+}
+
+nav ul li {
+    display: inline-block;  
+    font-size: 20px;
+    padding-top: 17px;
+    font-family: 'Aril', cursive;
+
+}
+nav ul li a{
+    text-decoration: none; /*retira a cor do link*/
+    color:  red;
+    padding: 7px;
+    display: block; /*Transforma em blocos clicaveis*/
+    float: left;
+
+
+}
+
+nav ul li a:hover{
+    background-color:black;
+    transition: all 0.5s;
+
+}
+/*fim menu */
+
+body{
+    font-family: sans-serif;
+}
+
+.Layout{
+    background-image: url('dj.jpg');
+    height: 350px;
+    background-size: cover; /* mantem o maior tamanho sem repetição */
+    background-position: center; /* centralizar o background */
+    padding-top: 200px;
+    background-attachment: fixed; /* fixar background */
+
+}
+
+.Layout p{
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+
+.Modulo{
+    background-color: white;
+}
+
+.Destaque{
+    padding: 150px 0px 150px 0px;
+    max-width: 1000px;
+    margin: 0 auto; /*centralizar*/
+}
