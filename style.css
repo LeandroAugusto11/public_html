@@ -9,22 +9,22 @@
 }
 
 
-/* menu */
-
-#logo{
-    float: left;
-}
-
 /* banner slide */
 
 #banner{
     
     margin-top: 52px;
-    height: 900px;
-    background-image: url('dj.jpg');
+    height: 350px;
+    background-color: black;
     /*Flexibilizando o layout para alinhamento vertical*/
     display: flex;
     align-items: center;
+    margin-left: 25%;
+    margin-right: 30%;
+    padding: 40px;
+    margin-bottom: 50px;
+
+   
 }
 
 footer{
@@ -77,6 +77,11 @@ nav ul li a:hover{
     transition: all 0.5s;
 
 }
+
+
+#logo{
+    float: left;
+}
 /*fim menu */
 
 body{
@@ -99,8 +104,9 @@ body{
     font-size: 2.5em;
 }
 
-.Modulo{
-    background-color: white;
+#Modulo{
+    background-color: #e3f2fd;
+    text-align: center;
 }
 
 .Destaque{
@@ -108,3 +114,102 @@ body{
     max-width: 1000px;
     margin: 0 auto; /*centralizar*/
 }
+
+#ROCK {
+    background-color: slategrey;
+    color: white;
+    text-align: center;
+}
+
+#REDESSOCIAIS{
+    background-color: #f5f5f5;
+    color: red;
+}
+
+#SOBRE{
+    background-color: teal;
+}
+
+/*************** Formulario de contato ***************/
+#contato{
+    padding-top: 102px;
+    width: 70%;
+    margin: 0 auto;
+}
+#contato h1{
+    margin-bottom: 30px;
+}
+#contato input[type=text]{
+    width: 100%;
+    border: 1px solid #080808;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; /*arrendondar os cantos*/
+}
+#contato textarea{
+    width: 100%;
+    border: 1px solid #080808;
+    padding: 10px 10px 40px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; /*arrendondar os cantos*/
+    resize: none;
+}
+#contato input[type=submit]{
+    background-color: #1d1b1b;
+    border: 1px solid #080808;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+}
+
+
+@media screen and (max-width: 480px){
+    
+    /*************** header ****************/
+    #main{
+        margin: 0;
+    }
+    /***************** Menu *****************/
+    .Mobile{
+        display: block;
+        background-color: #fff;
+        color: #2b28d3bd;
+        text-decoration: none;
+        padding: 15px;
+    }
+    nav{
+        z-index: 3;
+    }
+    nav >ul > li{
+       float: none;
+       width: 100%;
+    }
+    
+    nav ul{
+        display: none;
+    }
+    /*** melhorando UX (User eXperience) ***/
+    nav ul li a{
+       text-align: left;
+    }
+    
+    nav li ul li{
+       background-color: #2e3335;
+       padding-left: 40px;
+    }
+    
+    nav li ul li a{
+        background-color: #0a0a0a;
+        padding-left: 40px;
+    }
+    /***********Banner*******************/
+
+    #banner{
+        margin-left: 15%;
+        margin-right: 20%;
+       height: 110px;
+    }
+    
+    
+    }
+    
